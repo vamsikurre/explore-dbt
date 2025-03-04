@@ -1,0 +1,149 @@
+<Report>
+    <objType>13</objType>
+    <objectKey>DUMMY_158005_lIt5c</objectKey>
+    <properties>
+        <querySettings class="qrys">
+            <doQueryLog>false</doQueryLog>
+            <maxRows>-1</maxRows>
+            <queryTimeout>-1</queryTimeout>
+            <autoQuery>false</autoQuery>
+            <disableDistinct>true</disableDistinct>
+        </querySettings>
+        <report__config__type class="string">table</report__config__type>
+        <scheduleQuerySettings class="qrys">
+            <doQueryLog>false</doQueryLog>
+            <maxRows>-1</maxRows>
+            <queryTimeout>-1</queryTimeout>
+            <autoQuery>true</autoQuery>
+            <disableDistinct>true</disableDistinct>
+        </scheduleQuerySettings>
+        <description class="ls">
+            <localeStringMap>
+                <en class="string"></en>
+            </localeStringMap>
+        </description>
+        <acqs class="boolean">true</acqs>
+        <report__result__type class="string">table</report__result__type>
+        <widgetProperties class="map"/>
+        <report__type class="string">oper</report__type>
+        <acsqs class="boolean">true</acsqs>
+        <name class="ls">
+            <localeStringMap>
+                <en class="string">dummy</en>
+            </localeStringMap>
+        </name>
+        <VERSION class="int">92</VERSION>
+        <constraintGroup class="null">
+            <null/>
+        </constraintGroup>
+    </properties>
+    <inheritedMetaObjectKey>INV_STATUS_7932819_WHrm3</inheritedMetaObjectKey>
+    <orbMetaInfo>
+        <objectName>dummy</objectName>
+        <objVersion>10</objVersion>
+        <lastModifiedBy>orbit</lastModifiedBy>
+        <lastModifiedDate>2025-03-04 03:41:13.283 UTC</lastModifiedDate>
+        <exportTime>2025-03-04T04:01:44.739990900Z</exportTime>
+        <hostName>OL-VAMSIK</hostName>
+        <buildTime>2025-03-04T03:06:45.726Z</buildTime>
+        <version>11.0.1-SNAPSHOT</version>
+    </orbMetaInfo>
+    <folder>
+        <objType>12</objType>
+        <objectKey>000001_31973304_llijb</objectKey>
+        <properties>
+            <name class="ls">
+                <localeStringMap>
+                    <en class="string">000001</en>
+                </localeStringMap>
+            </name>
+            <description class="ls">
+                <localeStringMap>
+                    <en class="string"></en>
+                </localeStringMap>
+            </description>
+        </properties>
+        <children/>
+    </folder>
+    <columns>
+        <rcol>
+            <objType>15</objType>
+            <objectKey>CODE_158006_8HXim</objectKey>
+            <properties>
+                <cw class="int">200</cw>
+                <formula class="null">
+                    <null/>
+                </formula>
+                <aggregation class="at">NONE</aggregation>
+                <nsp class="string">FIRST</nsp>
+            </properties>
+            <inheritedMetaObjectKey>CODE_7932822_VkP0d</inheritedMetaObjectKey>
+            <category>
+                <objectKey>INV_STATUS_7932820_TOs0y</objectKey>
+                <logicalColumns/>
+                <categories/>
+                <categoryType>0</categoryType>
+            </category>
+            <logicalColumn>
+                <objectKey>CODE_7932822_VkP0d</objectKey>
+            </logicalColumn>
+            <dimensionType>row</dimensionType>
+            <columnOrder>1</columnOrder>
+        </rcol>
+        <rcol>
+            <objType>15</objType>
+            <objectKey>DESCRIPTION_158080_dSoRJ</objectKey>
+            <properties>
+                <cw class="int">200</cw>
+                <formula class="null">
+                    <null/>
+                </formula>
+                <aggregation class="at">NONE</aggregation>
+            </properties>
+            <inheritedMetaObjectKey>DESCRIPTION_7932823_29FmV</inheritedMetaObjectKey>
+            <category>
+                <objectKey>INV_STATUS_7932820_TOs0y</objectKey>
+                <logicalColumns/>
+                <categories/>
+                <categoryType>0</categoryType>
+            </category>
+            <logicalColumn>
+                <objectKey>DESCRIPTION_7932823_29FmV</objectKey>
+            </logicalColumn>
+            <dimensionType>row</dimensionType>
+            <columnOrder>2</columnOrder>
+        </rcol>
+        <rcol>
+            <objType>15</objType>
+            <objectKey>DESCRIPTION_253303_a9Ka5lX26ni7roM</objectKey>
+            <properties>
+                <cw class="int">200</cw>
+                <formula class="null">
+                    <null/>
+                </formula>
+                <aggregation class="at">NONE</aggregation>
+            </properties>
+            <inheritedMetaObjectKey>DESCRIPTION_7932823_29FmV</inheritedMetaObjectKey>
+            <category>
+                <objectKey>INV_STATUS_7932820_TOs0y</objectKey>
+                <logicalColumns/>
+                <categories/>
+                <categoryType>0</categoryType>
+            </category>
+            <logicalColumn>
+                <objectKey>DESCRIPTION_7932823_29FmV</objectKey>
+            </logicalColumn>
+            <dimensionType>row</dimensionType>
+            <columnOrder>3</columnOrder>
+        </rcol>
+    </columns>
+    <parameters/>
+    <conditions/>
+    <dashboardGroups/>
+    <widgetType>oper</widgetType>
+    <templates/>
+    <insightReports/>
+    <transReportViews/>
+    <transWebSheets/>
+    <insight>false</insight>
+</Report>
