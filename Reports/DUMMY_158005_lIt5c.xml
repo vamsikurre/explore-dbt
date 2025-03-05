@@ -24,8 +24,9 @@
         </description>
         <acqs class="boolean">true</acqs>
         <report__result__type class="string">table</report__result__type>
-        <widgetProperties class="map"/>
+        <widgetProperties class="linked-hash-map"/>
         <report__type class="string">oper</report__type>
+        <lmprops class="boolean">false</lmprops>
         <acsqs class="boolean">true</acsqs>
         <name class="ls">
             <localeStringMap>
@@ -40,12 +41,12 @@
     <inheritedMetaObjectKey>INV_STATUS_7932819_WHrm3</inheritedMetaObjectKey>
     <orbMetaInfo>
         <objectName>dummy</objectName>
-        <objVersion>10</objVersion>
+        <objVersion>11</objVersion>
         <lastModifiedBy>orbit</lastModifiedBy>
-        <lastModifiedDate>2025-03-04 03:41:13.283 UTC</lastModifiedDate>
-        <exportTime>2025-03-04T04:01:44.739990900Z</exportTime>
+        <lastModifiedDate>2025-03-05 17:25:30.605 UTC</lastModifiedDate>
+        <exportTime>2025-03-05T17:26:44.943392100Z</exportTime>
         <hostName>OL-VAMSIK</hostName>
-        <buildTime>2025-03-04T03:06:45.726Z</buildTime>
+        <buildTime>2025-03-05T15:59:11.129Z</buildTime>
         <version>11.0.1-SNAPSHOT</version>
     </orbMetaInfo>
     <folder>
@@ -122,6 +123,7 @@
                     <null/>
                 </formula>
                 <aggregation class="at">NONE</aggregation>
+                <chwrap class="boolean">true</chwrap>
             </properties>
             <inheritedMetaObjectKey>DESCRIPTION_7932823_29FmV</inheritedMetaObjectKey>
             <category>
