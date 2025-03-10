@@ -43,13 +43,50 @@
         <objectName>dummy</objectName>
         <objVersion>14</objVersion>
         <lastModifiedBy>orbit</lastModifiedBy>
-        <lastModifiedDate>2025-03-05 17:35:41.604 UTC</lastModifiedDate>
-        <exportTime>2025-03-06T11:55:51.608960500Z</exportTime>
+        <lastModifiedDate>2025-03-07 08:55:39.259 UTC</lastModifiedDate>
+        <exportTime>2025-03-10T08:29:21.993038500Z</exportTime>
         <hostName>OL-VAMSIK</hostName>
-        <buildTime>2025-03-06T11:49:40.588Z</buildTime>
+        <buildTime>2025-03-10T07:55:12.768Z</buildTime>
         <version>11.0.1-SNAPSHOT</version>
     </orbMetaInfo>
     <name>dummy</name>
+    <transSecurityObject>
+        <owner>orbit</owner>
+        <securityObjects>
+            <mos>
+                <obj__key>DUMMY_158005_lIt5c</obj__key>
+                <obj__type>13</obj__type>
+                <role>Accounts Payable Manager(ORA_AP_ACCOUNTS_PAYABLE_MANAGER_JOB)</role>
+                <roleKey>300000139103777~~~101~~~Accounts Payable Manager</roleKey>
+                <access>9</access>
+                <inherited>false</inherited>
+            </mos>
+            <mos>
+                <obj__key>DUMMY_158005_lIt5c</obj__key>
+                <obj__type>13</obj__type>
+                <role>Accounts Receivable Manager(ORA_AR_ACCOUNTS_RECEIVABLE_MANAGER_JOB)</role>
+                <roleKey>300000139102948~~~101~~~Accounts Receivable Manager</roleKey>
+                <access>333</access>
+                <inherited>false</inherited>
+            </mos>
+            <mos>
+                <obj__key>DUMMY_158005_lIt5c</obj__key>
+                <obj__type>13</obj__type>
+                <role>Accounts Payable Supervisor(ORA_AP_ACCOUNTS_PAYABLE_SUPERVISOR_JOB)</role>
+                <roleKey>300000139103096~~~101~~~Accounts Payable Supervisor</roleKey>
+                <access>9</access>
+                <inherited>false</inherited>
+            </mos>
+            <mos>
+                <obj__key>DUMMY_158005_lIt5c</obj__key>
+                <obj__type>13</obj__type>
+                <role>Accounts Payable Specialist(AP_ACCOUNTS_PAYABLE_SPECIALIST_JOB)</role>
+                <roleKey>300000000557439~~~101~~~Accounts Payable Specialist</roleKey>
+                <access>9</access>
+                <inherited>false</inherited>
+            </mos>
+        </securityObjects>
+    </transSecurityObject>
     <folder>
         <objType>12</objType>
         <objectKey>000001_31973304_llijb</objectKey>
