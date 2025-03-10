@@ -24,7 +24,7 @@
         </description>
         <acqs class="boolean">true</acqs>
         <report__result__type class="string">table</report__result__type>
-        <widgetProperties class="map"/>
+        <widgetProperties class="linked-hash-map"/>
         <report__type class="string">oper</report__type>
         <lmprops class="boolean">false</lmprops>
         <acsqs class="boolean">true</acsqs>
@@ -37,16 +37,17 @@
         <constraintGroup class="null">
             <null/>
         </constraintGroup>
+        <detail class="boolean">true</detail>
     </properties>
     <inheritedMetaObjectKey>INV_STATUS_7932819_WHrm3</inheritedMetaObjectKey>
     <orbMetaInfo>
         <objectName>dummy</objectName>
-        <objVersion>0</objVersion>
-        <lastModifiedBy>vamsi</lastModifiedBy>
-        <lastModifiedDate>2025-03-10 11:50:03.32 UTC</lastModifiedDate>
-        <exportTime>2025-03-10T12:23:37.351888600Z</exportTime>
+        <objVersion>3</objVersion>
+        <lastModifiedBy>orbit</lastModifiedBy>
+        <lastModifiedDate>2025-03-10 17:16:32.151 UTC</lastModifiedDate>
+        <exportTime>2025-03-10T17:18:26.750293600Z</exportTime>
         <hostName>OL-VAMSIK</hostName>
-        <buildTime>2025-03-10T12:10:08.471Z</buildTime>
+        <buildTime>2025-03-10T16:53:55.828Z</buildTime>
         <version>11.0.1-SNAPSHOT</version>
     </orbMetaInfo>
     <name>dummy</name>
@@ -54,13 +55,6 @@
         <owner>orbit</owner>
         <objKey>DUMMY_158005_lIt5c</objKey>
         <securityObjects>
-            <mos>
-                <obj__key>DUMMY_158005_lIt5c</obj__key>
-                <obj__type>13</obj__type>
-                <user>XXFORX</user>
-                <access>521</access>
-                <inherited>true</inherited>
-            </mos>
             <mos>
                 <obj__key>DUMMY_158005_lIt5c</obj__key>
                 <obj__type>13</obj__type>
@@ -76,6 +70,13 @@
                 <roleKey>300000139103096~~~101~~~Accounts Payable Supervisor</roleKey>
                 <access>9</access>
                 <inherited>false</inherited>
+            </mos>
+            <mos>
+                <obj__key>DUMMY_158005_lIt5c</obj__key>
+                <obj__type>13</obj__type>
+                <user>XXFORX</user>
+                <access>521</access>
+                <inherited>true</inherited>
             </mos>
             <mos>
                 <obj__key>DUMMY_158005_lIt5c</obj__key>
@@ -186,6 +187,30 @@
             </logicalColumn>
             <dimensionType>row</dimensionType>
             <columnOrder>3</columnOrder>
+        </rcol>
+        <rcol>
+            <objType>15</objType>
+            <objectKey>DESCRIPTION_257620_OBJ7SIalgrS0XqX</objectKey>
+            <properties>
+                <cw class="int">200</cw>
+                <formula class="null">
+                    <null/>
+                </formula>
+                <aggregation class="at">NONE</aggregation>
+            </properties>
+            <inheritedMetaObjectKey>DESCRIPTION_7932823_29FmV</inheritedMetaObjectKey>
+            <name>Description</name>
+            <category>
+                <objectKey>INV_STATUS_7932820_TOs0y</objectKey>
+                <logicalColumns/>
+                <categories/>
+                <categoryType>0</categoryType>
+            </category>
+            <logicalColumn>
+                <objectKey>DESCRIPTION_7932823_29FmV</objectKey>
+            </logicalColumn>
+            <dimensionType>row</dimensionType>
+            <columnOrder>4</columnOrder>
         </rcol>
     </columns>
     <parameters/>
